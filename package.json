@@ -1,0 +1,19 @@
+{
+  "name": "sparkbook-website",
+  "version": "1.0.0",
+  "description": "SparkBook project showcase website for CS 147",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/ --watch=.",
+    "build": "echo 'Static website - no build needed'",
+    "serve": "http-server -p 3000 -o"
+  },
+  "keywords": ["sparkbook", "cs147", "stanford", "website", "showcase"],
+  "author": "SparkBook Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  }
+}
